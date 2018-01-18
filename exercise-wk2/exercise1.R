@@ -44,8 +44,8 @@ CompareLength <- function(v1,v2) {
 
 
 # Pass two vectors of different length to your `CompareLength` function
-
-
+CompareLength(v1, v2)
+print(CompareLength(v1,v2)) 
 # Write a function `DescribeDifference` that will return one of the following statements:
 # "Your first vector is longer by N elements"
 # "Your second vector is longer by N elements"
